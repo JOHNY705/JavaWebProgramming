@@ -1,0 +1,17 @@
+.productContent {
+    display: inline-block;
+    width: 24%;
+}
+
+#contentContainer {
+    max-width: 60%;
+    margin-top: 50px;
+}
+
+.productsContainer {
+    background: linear-gradient(45deg, rgb(227, 118, 38, 1), rgb(195, 14, 96, 1));
+    background: -webkit-linear-gradient(left bottom, #e37526 0%, #c30e5f 100%);
+    background: -moz-linear-gradient(left bottom, #e37526 0%, #c30e5f 100%);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}

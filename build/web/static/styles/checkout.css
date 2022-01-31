@@ -1,0 +1,111 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.checkoutSectionHeader {
+    background: linear-gradient(45deg, rgb(227, 118, 38, 1), rgb(195, 14, 96, 1));
+    background: -webkit-linear-gradient(left bottom, #e37526 0%, #c30e5f 100%);
+    background: -moz-linear-gradient(left bottom, #e37526 0%, #c30e5f 100%);
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+}
+
+.sectionHeaderContent {
+    width: 100%;
+    height: 80px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.sectionHeaderLabel {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.sectionHeaderIcon {
+    vertical-align: bottom;
+    font-size: 40px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.sectionForm {
+    padding: 10px;
+}
+
+.sectionDisabled > .checkoutSectionHeader {
+    background-color: #f8f9fa;   
+}
+
+.sectionDisabled .sectionHeaderIcon,
+.sectionDisabled .sectionHeaderLabel {
+    color: #b1b1b1;
+    cursor: default;
+}
+
+.sectionDisabled .sectionForm,
+.sectionClosed .sectionForm {
+    display: none;
+}
+
+.rbGroup {
+    padding-left: 20px;
+}
+
+.confirmContainer {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.btnSubmit {
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background: linear-gradient(45deg, rgb(227, 118, 38, 1), rgb(195, 14, 96, 1));
+    background: -webkit-linear-gradient(left bottom, #e37526 0%, #c30e5f 100%);
+    background: -moz-linear-gradient(left bottom, #e37526 0%, #c30e5f 100%);
+    color: white;
+    border: 0;
+}
+
+.btnSubmit:focus {
+    outline: none;
+}
+
+.btnSubmit:hover {
+    background-color: #b0d4fd;
+    border-color: #b0d4fd;
+}
+
+.btnDisabled {
+    border-color: #cfcfcf;
+    background-color: #cfcfcf;
+}
+
+.btnDisabled:hover {
+    cursor: default;
+    border-color: #cfcfcf;
+    background-color: #cfcfcf;
+}
+
+#contentContainer {
+    max-width: 50%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#paypal-button-container {
+    margin-top: 10px;
+    width: 45%;
+}

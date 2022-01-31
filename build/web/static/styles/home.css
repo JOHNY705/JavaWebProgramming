@@ -1,0 +1,118 @@
+.searchForm {
+    margin: 40px 0;
+}
+
+.searchInput {
+    width: 80%;
+    padding: 15px 20px;
+    border: 1px solid #cfcfcf;
+    border-right: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background: none;
+}
+
+.searchInput:focus {
+    outline: none;
+}
+
+.searchButton {
+    width: auto;
+    padding: 14px 15px;
+    background-color: white;
+    background:none;
+    border: 1px solid #cfcfcf;
+    border-left:none;
+    outline:none !important;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size:1em;
+    color: #cfcfcf;
+}
+
+.searchButton:hover > .bi-search {
+    color: #6b6b6b;
+}
+
+.carouselNav {
+    width: 6%;
+}
+
+.carouselNav:hover {
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+.carousel-indicators > li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.sectionHeader {
+    background: linear-gradient(45deg, rgb(227, 118, 38, 1), rgb(195, 14, 96, 1));
+    background: -webkit-linear-gradient(left bottom, #e37526 0%, #c30e5f 100%);
+    background: -moz-linear-gradient(left bottom, #e37526 0%, #c30e5f 100%);
+    color: white;
+    border-radius: 5px;
+}
+
+.sectionHeaderLabel {
+    padding: 8px 12px;
+    font-size: 24px;
+}
+
+.carouselContent {
+    padding: 0 6%;
+}
+
+.highlight-products-slider {
+    margin: 0 40px;
+}
+
+.highlight-products-slider :focus {
+    outline-color: #b0d4fd;
+}
+        
+.slick-prev,
+.slick-next {
+    width: initial;
+    height: initial;
+}
+
+.slick-prev {
+    left: -45px;
+}
+
+.slick-next {
+    right: -45px;
+}
+
+.slick-arrow:before {
+    font-size: 0;
+}
+
+.slick-arrow,
+.slick-arrow:active,
+.slick-arrow:focus {
+    color: #0056b3;
+}
+
+.slick-arrow:hover {
+    color: #b0d4fd
+}
+
+.arrow-icon {
+    font-size: 45px !important;
+    color: #c30e5f;
+}
+
+#homeCarousel {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#contentContainer {
+    max-width: 50%;
+}

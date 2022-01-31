@@ -1,0 +1,152 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.productImage {
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.productLabel {
+    display: block;
+}
+
+.qtyAction {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #1659c4;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.qtyAction:hover {
+    background-color: #1659c4;
+}
+
+.qtyAction:hover > i {
+    color: white;
+}
+
+.qtyActionDisabled {
+    border-color: #cfcfcf;
+    cursor: default;
+}
+
+.qtyActionDisabled:hover {
+    background-color: white;
+}
+
+.qtyActionDisabled:hover > i {
+    color: #cfcfcf;
+}
+
+.qtyActionDisabled > i {
+    color: #cfcfcf;
+}
+
+.qtyIcon {
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+.addMessage {
+    display: inline-block;
+    background: linear-gradient(45deg, rgb(227, 118, 38, 1), rgb(195, 14, 96, 1));
+    background: -webkit-linear-gradient(left bottom, #e37526 0%, #c30e5f 100%);
+    background: -moz-linear-gradient(left bottom, #e37526 0%, #c30e5f 100%);
+    padding: 10px 12px 10px 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.addMessageText {
+    display: inline-block;
+}
+
+.addMessageText > label {
+    margin: 0;
+    color: white;
+}
+
+.cartLink {
+    color: white;
+    text-decoration: underline;
+}
+
+.closeIcon {
+    margin: 18px 8px 0 0;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.closeIcon:hover {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#contentContainer {
+    max-width: 50%;
+    margin-top: 50px;
+}
+
+#productBrandLabel {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+#productDescriptionLabel {
+    font-weight: 500;
+}
+
+#addToCartForm {
+    margin: 25px 0;
+}
+
+#productQty {
+    width: 50px;
+    height: 40px;
+    text-align: center; 
+    vertical-align: top;
+    border: 1px solid #1659c4;
+}
+
+#productQty:focus {
+    outline-color: #1659c4 !important;
+}
+
+#btnSubmit {
+    height: 40px;
+    padding: 0 15px;
+    vertical-align: top;
+    color: white;
+    background: linear-gradient(45deg, rgb(227, 118, 38, 1), rgb(195, 14, 96, 1));
+    background: -webkit-linear-gradient(left bottom, #e37526 0%, #c30e5f 100%);
+    background: -moz-linear-gradient(left bottom, #e37526 0%, #c30e5f 100%);
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+    outline: none;
+}
+
+#btnSubmit:hover {
+    background-color: #8cb3f2;
+}
+
+.productDetailsContainer  {
+    background: #edebeb;
+    border-radius: 5px;
+    padding: 25px;
+}

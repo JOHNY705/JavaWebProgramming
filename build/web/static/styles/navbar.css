@@ -1,0 +1,162 @@
+.mainNavColor {
+    padding-bottom: 0;
+    padding-top: 0;
+    border-bottom: 3px solid black;
+    border-bottom-color: black;
+}
+
+.logo {
+    height: 70px;
+    width: auto;
+}
+
+.navIcon {
+    font-size: 32px;
+    color: black;
+    vertical-align: bottom;
+}
+
+.navIconUser {
+    font-size: 36px;
+}
+
+.mainNavItem:hover,
+.mainNavItem:hover > i,
+.mainNavItem:hover > label#cartLabel,
+.mainNavItem:hover > label#loginLabel
+{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.loginNavItem {
+    margin-left: 25px;
+    padding: 5px;
+}
+
+.kosarica {
+    padding: 8px;
+}
+
+.kosarica:hover {
+    background: linear-gradient(45deg, rgb(227, 118, 38, 1), rgb(195, 14, 96, 1));
+    background: -webkit-linear-gradient(left bottom, #e37526 0%, #c30e5f 100%);
+    background: -moz-linear-gradient(left bottom, #e37526 0%, #c30e5f 100%);
+    border-radius: 5px;
+}
+
+.loginNavItem:hover {
+    background: linear-gradient(45deg, rgb(227, 118, 38, 1), rgb(195, 14, 96, 1));
+    background: -webkit-linear-gradient(left bottom, #e37526 0%, #c30e5f 100%);
+    background: -moz-linear-gradient(left bottom, #e37526 0%, #c30e5f 100%);
+    border-radius: 5px;
+}
+
+.userDropdownItem {
+    padding: 12px 6px 12px 25px;
+}
+
+.mainNavItem:hover > #cartItemsNumber {
+    background-color: #8cb3f2;
+    text-decoration: none;
+}
+
+.catLabel {
+    color: #000;
+}
+
+.userDropdownMenu {
+    padding: 12px 0;
+    border: 3px solid #c30e5f;
+}
+
+#cartItemsNumber {
+    padding: 3px 9px;
+    margin-bottom: 0;
+    margin-left: -15px;
+    margin-top: -5px;
+    vertical-align: top;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    font-size: 10px;
+    color: white;
+    background-color: #1659c4;
+    position: absolute;
+}
+
+#cartLabel,
+#loginLabel {
+    color: black;
+    margin-bottom: 0.4rem;
+}
+
+#cartLabel {
+    margin-left: 12px;
+}
+
+#navbarContainer {
+    max-width: 100%;
+}
+
+#categoryNav > .nav-item:hover {
+    background-color: white;
+}
+
+#categoryNav > .nav-item:hover > a {
+    color: #c30e5f;
+}
+
+#logoutDropdownItem:active {
+    color: white;
+}
+
+#navbar-dropdown {
+    color: red;
+}
+
+.header-navbar {
+    background: linear-gradient(45deg, rgb(227, 118, 38, 1), rgb(195, 14, 96, 1));
+    background: -webkit-linear-gradient(left bottom, #e37526 0%, #c30e5f 100%);
+    background: -moz-linear-gradient(left bottom, #e37526 0%, #c30e5f 100%);
+}
+
+.navbarDropdown {
+    color: black;
+}
+
+.catLabel {
+    color: white;
+}
+
+.nav-item > a {
+    font-weight: 600;
+    color: black;
+}
+
+#categoryNav > .nav-item > a {
+    color: white;
+}
+
+#categoryNav > .nav-item {
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.dropdown-menu {
+    margin-top: 10px;
+    background: linear-gradient(45deg, rgb(227, 118, 38, 1), rgb(195, 14, 96, 1));
+    background: -webkit-linear-gradient(left bottom, #e37526 0%, #c30e5f 100%);
+    background: -moz-linear-gradient(left bottom, #e37526 0%, #c30e5f 100%);
+}
+
+.dropdown-item {
+    color: white;
+    font-size: 16px;
+}
+
+.dropdown-item:hover {
+    color: #c30e5f; 
+}

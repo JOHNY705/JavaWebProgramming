@@ -1,0 +1,42 @@
+.authTableHead {
+    color: white;
+    background: linear-gradient(45deg, rgb(227, 118, 38, 1), rgb(195, 14, 96, 1));
+    background: -webkit-linear-gradient(left bottom, #e37526 0%, #c30e5f 100%);
+    background: -moz-linear-gradient(left bottom, #e37526 0%, #c30e5f 100%);
+}
+
+.table thead>tr>th {
+    border:none;
+}
+
+#contentContainer {
+    max-width: 70%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#detailsItemsContainer,
+#detailsAddressContainer {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+}
+
+#receiverLabel,
+#streetLabel,
+#cityLabel,
+#countryLabel {
+    margin: 0;
+}
+
+input {
+    border-radius: 5px;
+}
+
+.authTableHeadRow th:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.authTableHeadRow th:last-child {
+    border-radius: 0 5px 5px 0;
+}
